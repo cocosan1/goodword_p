@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 from db_fxn import (create_table, add_data, delete_data, select_word, view_all_data, view_unique_words, get_word, 
-    edit_word_data, delete_data) 
+    edit_word_data, delete_data, select_word) 
 
 def main():
     st.markdown('## Good Word in Life')
