@@ -5,7 +5,7 @@ from db_fxn import (create_table, add_data, delete_data, view_all_data, view_uni
     edit_word_data, delete_data) 
 
 def main():
-    st.markdown('## Good Word in Business')
+    st.markdown('## Good Word in Private')
     menu = ['Create', 'Read', 'Update', 'Delete', 'About']
     choice = st.sidebar.selectbox('Menu', menu)
 
